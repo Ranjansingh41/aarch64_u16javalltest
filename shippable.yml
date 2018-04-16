@@ -9,8 +9,8 @@ jobs:
              imageTag: master
          script:
            - /usr/lib/jvm/java-8-oracle/bin/java -version
-           - java /usr/lib/jvm/java-7-openjdk-arm64/jre/bin/java -version
-           - java /usr/lib/jvm/java-8-openjdk-arm64/jre/bin/java
+           - /usr/lib/jvm/java-7-openjdk-arm64/jre/bin/java -version
+           - /usr/lib/jvm/java-8-openjdk-arm64/jre/bin/java
            - mvn --version
            - gradle --version 
            - ant -version
