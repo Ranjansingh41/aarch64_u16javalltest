@@ -12,5 +12,6 @@ jobs:
            - /usr/lib/jvm/java-7-openjdk-arm64/jre/bin/java -version
            - /usr/lib/jvm/java-8-openjdk-arm64/jre/bin/java -version
            - mvn --version
+           - ant -version
            - gradle --version 
-           - /usr/local/ant -version
+           
